@@ -1,0 +1,30 @@
+.bg-wrapper {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.page-wrapper {
+  margin-top: 5%;
+}
+/*#311C27*/
+
+.centeredDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  background-color: #0009084d;
+  color: white;
+}
+
+#particles-js-big, #particles-js-far {
+  height: 100vh;
+}
+#particles-js-big {
+  background: radial-gradient(80% 50%, #255, #1c3131);
+}
